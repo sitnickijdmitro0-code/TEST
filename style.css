@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+* {
+    font-family: "EB Garamond", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-scren {
+    background: linear-gradient(135deg,#453023, #020202);
+    padding-top: 40px;
+}
+.header, .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #E17F3C;
+}
+.logo p {
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 503px;
+}
+.header ul a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.menu span {
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 4px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.offer h1 {
+  font-weight: 800;  
+  font-size: 50px;
+  line-height: 105%;
+  color: white;
+  width: 337px;
+  margin-bottom: 20px;
+}
+.offer p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 119%;
+  color: white;
+  width: 435px;
+  margin-bottom: 20px;  
+}
+.offer a {
+    background-color: #E17F3C;
+    border-radius: 100px;
+    width: 270px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 119%;
+    color: white;
+    text-decoration: none;
+    padding: 18px 0;
+    display: block;
+}
+.second-screen {
+    background-color: #F6F6F6;
+    padding: 60px 0;
+}
+.second-screen h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 119%;
+    text-align: center;
+    width: 379px;
+    margin: 0 auto;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 33px auto 0;
+}
+.cards div {
+    width: 370px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 34px 0 26px;
+}
+.cards h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 119%;
+    color: #E17F3C;
+    margin: 20px 0;
+}
+.cards a {
+    display: block;
+    width: 270px;
+    border: 2px solid coral;
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.footer {
+background: linear-gradient(135deg,#453023, #020202);
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer img {
+    height: auto;
+}
+.footer a {
+    display: block;
+    width: 270px;
+    text-decoration: none;
+    color: #E17F3C;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 101%;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.container h3 {
+font-weight: 700;
+font-size: 30px;
+line-height: 101%;
+color: white;
+}
+.container div {
+    text-align: center;
+}

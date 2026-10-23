@@ -1,0 +1,61 @@
+@media screen and (max-width: 992px) {
+ .header, .hero, .cards {
+    width: 900px;
+ }
+ .hero img {
+    width: 500px;
+ }
+ .cards div {
+    width: 290px;
+ }
+ .footer img {
+    width: 200px;
+ }
+}
+@media screen and (max-width: 768px) {
+  .header, .hero, .cards {
+    width: 700px;
+  }
+  .header ul a {
+    font-size: 16px;
+  }
+  .header ul {
+    width: 430px;
+  }
+  .offer h1 {
+    font-size: 40px;
+  }
+  .offer p {
+    font-size: 16px;
+    width: 380px;
+  }
+  .hero img {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 576px) {
+.header, .hero, .cards {
+    width:100%;
+    padding: 0 24px;
+}
+.header ul {
+  display: none;
+}
+.menu {
+  display: block;
+}
+.hero {
+  flex-direction: column;
+  margin-top: 50px;
+}
+.cards {
+  flex-direction: column;
+  align-items: center;
+}
+.cards div {
+  margin-bottom: 15px;
+}
+.container {
+  flex-direction: column;
+  align-items: center;
+}}
